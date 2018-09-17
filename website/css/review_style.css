@@ -1,0 +1,62 @@
+
+	/*-- Review section start --*/
+	
+.student{
+width:150px; 
+height:150px;
+margin:0 auto;
+    margin-top: 2em;
+
+ }
+ 
+#Sec-review{  
+width:100%;
+background-image:url(..img/course/topics-back.jpg);
+ background-repeat:no-repeat; 
+ background-size:cover;
+}
+.review-overlay{
+  background-color: #ff9e3d;
+  border: 1px solid black;
+  opacity: 0.8;
+  filter: alpha(opacity=60);
+}
+
+
+#Sec-review .item{
+height:300px;
+letter-spacing:0.6px;
+}
+.review .item h3 {
+    font-size: 24px;
+    
+}
+
+.review .item p {
+    font-size: 17px;    
+}
+.carousel-caption {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    z-index: 10;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: ;
+	margin:0 auto;
+}
+	
+#Sec-review .carousel-control.left {
+    background-image:none;
+}
+
+#Sec-review .carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image:none;
+	}
+	
+		/*-- Review section end --*/
