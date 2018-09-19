@@ -1,13 +1,3 @@
-/* =================================
-------------------------------------
-  Unica - University Template
-  Version: 1.0
- ------------------------------------ 
- ====================================*/
-
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
 
 html,
 body {
@@ -81,6 +71,7 @@ ol {
 	margin: 0;
 }
 
+
 /*---------------------
 	Helper CSS
 -----------------------*/
@@ -90,6 +81,7 @@ ol {
     margin-bottom: 2em;
     margin-top: 2em;
 	letter-spacing:1px;
+	    width: 100%;
 }
 .section-title h3 {
 	text-transform: uppercase;
@@ -360,6 +352,58 @@ text-decoration:none;
     color: #e3e4ea;
     font-weight: 600;
     margin-left: 2em;
+}
+.video{width:560px;}
+@media only screen and (max-width: 767px) {
+
+.hs-item .h1 {
+    font-size: 1.5em;
+    color: #e3e4ea;
+    font-weight: 600;
+    margin-left: 0.4em;
+}
+.hs-item .hs-subtitle {
+	font-size: 1em!important;
+	text-transform: uppercase;
+	color: #e3e4ea;
+	font-weight: 600;
+	letter-spacing: 2px;
+	margin-bottom: 0px!important;
+	position: relative;
+	opacity: 0;
+	top: 50px;
+}
+.hs-item .hs-des {
+display:none;
+}
+
+.site-btn {
+	position: relative;
+	display: inline-block;
+	text-transform: uppercase;
+	background: #f6783a;
+	color: #fff;
+	padding: 8px 3px;
+	font-size: 10px;
+	font-weight: 500;
+	line-height: 14px;
+	border-radius: 50px;
+	min-width: 130px;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+}
+
+.hs-item .site-btn {
+	margin-top: 3px!important;
+	opacity: 0;
+	width:10px!impo;
+}
+
+.shialendra1{font-weight:bold;font-size:1em!important;}	
+
+.video{width:100%;}	
+
 }
 .hs-item .hs-text {
 
@@ -1421,4 +1465,103 @@ text-decoration:none;
 	.comment-warp .comment .comment-content {
 		padding-left: 0;
 	}
+}
+.comment-warp {
+	padding-top: 40px;
+	border-top: 1px solid #f5f5f5;
+}
+
+.comment-warp .comment-title {
+	font-weight: 400;
+	margin-bottom: 35px;
+}
+
+.comment-warp .comment-list {
+	list-style: none;
+}
+
+.comment-warp .comment-list .replay-comment-list {
+	list-style: none;
+	margin-left: 14%;
+}
+
+.comment-warp .comment {
+	margin-bottom: 40px;
+}
+
+.comment-warp .comment .comment-avator {
+	float: left;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+}
+
+.comment-warp .comment .comment-content {
+	padding-left: 100px;
+}
+
+.comment-warp .comment .comment-content .c-date {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #b7b7b7;
+	margin-bottom: 5px;
+	display: block;
+}
+
+.comment-warp .comment .comment-content h5 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+
+.comment-warp .comment .comment-content p {
+	margin-bottom: 0;
+}
+
+.comment-warp .comment .comment-content .c-btn {
+	display: inline-block;
+	font-size: 12px;
+	text-transform: uppercase;
+	border: 1px solid #e1e1e1;
+	color: #111111;
+	padding: 5px 25px;
+	border-radius: 2px;
+	margin-right: 5px;
+	margin-top: 15px;
+}
+
+.comment-warp .comment .comment-content .c-btn:hover {
+	border-color: #f6783a;
+	background: #f6783a;
+	color: #fff;
+}
+
+.comment-form-warp {
+	padding: 40px 0;
+	border-top: 1px solid #f5f5f5;
+}
+
+.comment-form input[type='text'],
+.comment-form input[type='email'],
+.comment-form textarea {
+	width: 100%;
+	/* border: 1px solid #cccccc; */
+	font-size: 14px;
+	padding: 18px 20px;
+	margin-bottom: 30px;
+	border-radius: 2px;
+}
+
+.comment-form textarea {
+	height: 150px;
+}
+
+.comment-form.--contact input[type='text'],
+.comment-form.--contact input[type='email'],
+.comment-form.--contact textarea {
+	border: 1px solid #e1e1e1;
+}
+
+.comment-form.--contact textarea {
+	margin-bottom: 50px;
 }
